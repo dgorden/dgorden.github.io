@@ -19,7 +19,7 @@ function compare(nameOne,nameTwo) {
   }
    
   // Now let's get the string of names
-  var names = "Lionel Messi, Cristiano Renaldo, Arjen Robben, Luis Suarez, Manuel Neuer, Gareth Bale"
+  var names = []
    
   // and break them into an array
   var namesSplit = names.split(", ");
