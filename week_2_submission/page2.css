@@ -1,5 +1,32 @@
+h1 {
+    padding-bottom: 15px;
+}
+
+ul {
+    display: inline-block;
+}
+
 .navbar {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    text-align: left;
+}
+
+#sidebar {
+    text-align: left;
+    /* float:right; */
+}
+
+.centered-content {
+    text-align:center;
+}
+
+.form {
+    text-align:center;
+    padding-bottom: 30px;
+}
+
+footer {
+    text-align: center;
 }
 
 .dropdown {
