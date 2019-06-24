@@ -1,31 +1,36 @@
-// get names 
+
+var names = "Bobby Craig, Dillon Gorden, Mark Kroh"
+
 function compare(nameOne,nameTwo) {
  
-    //split names into arrays
     var nOne = nameOne.split(" ");
     var nTwo = nameTwo.split(" ");
    
-    // get last name
     var nOneLast = nOne[nOne.length - 1];
-    console.log(nOneLast);
     var nTwoLast = nTwo[nTwo.length - 1];
    
-    // compare the names and return either
-    // a negative number, positive number
-    // or zero.
+
     if (nOneLast < nTwoLast) return -1;
     if (nOneLast > nTwoLast) return 1;
-  //   return 0;
-  }
+  }  
+
+var namesSplit = names.split(", ");
    
-  // Now let's get the string of names
-  var names = []
+
+namesSplit.sort(compare);
    
-  // and break them into an array
-  var namesSplit = names.split(", ");
-   
-  // and sort the array using our compare function
-  namesSplit.sort(compare);
-   
-  // and finally, let's see what we've got
-  console.log(namesSplit);
+
+console.log(namesSplit);
+
+
+
+// function getValue(id) {
+//   return document.getElementById(id).value;
+// };
+
+// function addLi() {
+//   var name = getValue('name')
+//   console.log(name)
+//   return false;
+// }
+
